@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="RIVAERA — immersive fashion and visual gallery." />
+  <title>RIVAERA — Visual Atelier</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="loader"><div class="loader-word">RIVAERA</div><div class="loader-line"></div></div>
+  <div class="noise"></div>
+  <div class="cursor"></div>
+  <div class="cursor-label">VIEW</div>
+
+  <header class="nav">
+    <a class="brand magnetic" href="#home">RIVAERA</a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#reels">Reels</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="ig-pill magnetic" href="https://www.instagram.com/rivaera_/" target="_blank" rel="noopener">Instagram ↗</a>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-glow"></div>
+      <div class="orb orb-a"></div>
+      <div class="orb orb-b"></div>
+      <div class="hero-copy">
+        <p class="eyebrow reveal">VISUAL ATELIER · 2026</p>
+        <h1 class="reveal">RIVA<span>ERA</span></h1>
+        <p class="hero-sub reveal">A digital space for attitude, texture and visual stories.</p>
+        <a class="cta magnetic reveal" href="#gallery"><span>Explore the world</span><i>↓</i></a>
+      </div>
+      <div class="hero-card tilt" data-tilt>
+        <div class="hero-card-inner">
+          <div class="placeholder-image" style="--img:url('assets/images/hero.jpg')"></div>
+          <div class="card-caption"><span>01 / 04</span><span>RIVAERA</span></div>
+        </div>
+      </div>
+      <div class="scroll-note">SCROLL TO DISCOVER <span>↘</span></div>
+    </section>
+
+    <section id="about" class="about section">
+      <div class="section-kicker">01 — THE EDIT</div>
+      <div class="about-grid">
+        <h2>Made to be<br><em>remembered.</em></h2>
+        <div>
+          <p class="lead">RIVAERA is presented here as an immersive visual identity — built around bold imagery, movement and a refined editorial rhythm.</p>
+          <p class="muted">Replace this copy with the brand's real story. The site is intentionally structured so your own photographs and reels can become the main experience.</p>
+          <a class="text-link magnetic" href="https://www.instagram.com/rivaera_/" target="_blank" rel="noopener">Discover on Instagram ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery section">
+      <div class="section-head">
+        <div class="section-kicker">02 — GALLERY</div>
+        <h2>Selected <em>frames</em></h2>
+      </div>
+      <div id="gallery-grid" class="gallery-grid"></div>
+    </section>
+
+    <section id="reels" class="reels section">
+      <div class="section-head">
+        <div class="section-kicker">03 — MOTION</div>
+        <h2>Reels in <em>motion</em></h2>
+      </div>
+      <div id="reel-track" class="reel-track"></div>
+      <p class="drag-note">DRAG / SWIPE TO EXPLORE</p>
+    </section>
+
+    <section class="statement">
+      <div class="statement-orb"></div>
+      <p>STYLE IS A<br><em>STATE OF MIND.</em></p>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div class="section-kicker">04 — CONNECT</div>
+      <div class="contact-wrap">
+        <p class="eyebrow">FOLLOW THE JOURNEY</p>
+        <h2>Let's make<br><em>something</em> unforgettable.</h2>
+        <a class="big-link magnetic" href="https://www.instagram.com/rivaera_/" target="_blank" rel="noopener">@rivaera_ ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 RIVAERA</span>
+    <span>Visual Atelier</span>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <div id="lightbox" class="lightbox">
+    <button class="close">×</button>
+    <div class="lightbox-content"></div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
